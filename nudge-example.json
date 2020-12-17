@@ -1,0 +1,88 @@
+{
+  "campaigns": [
+    {
+      "id": "5e834f50adf7aedc6209b621",
+      "type": "price-check",
+      "client": "THEPAVILIONS",
+      "variants": [
+        {
+          "variantId": "A",
+          "messagePosition": {},
+          "content": {
+            "type": "price-check",
+            "copy": {
+              "header": "You’ve found the best price!",
+              "directPrice": "Direct Price",
+              "directBookingBenefits": [
+                "Only when you book here",
+                "Free glass of Rioja",
+                "Free Late Checkout"
+              ],
+              "banner": null,
+              "searchCriteriaAdult": "adult",
+              "searchCriteriaAdults": "adults",
+              "searchCriteriaChild": "child",
+              "searchCriteriaChildren": "children",
+              "verifiedBy": "Verified by",
+              "checkingPrices": "Checking prices on the web",
+              "noAvailability": "No rooms",
+              "viewAll": "View all",
+              "viewLess": "View less"
+            },
+            "iconBackgroundColor": "#886f5a",
+            "ctaBackgroundColor": "#5e43c2",
+            "ctaCorners": "square",
+            "corners": "square",
+            "backgroundColor": "#ffffff",
+            "icon": null,
+            "image": null,
+            "font": "Lato",
+            "useBranding": false
+          }
+        }
+      ],
+      "criteria": {}
+    },
+    {
+      "id": "5f0e8d822d84a50017b5c885",
+      "display": {
+        "after": 0
+      },
+      "type": "nudge",
+      "client": "THEPAVILIONS",
+      "variants": [
+        {
+          "variantId": "A",
+          "content": {
+            "type": "text",
+            "copy": {
+              "header": "<p><strong>Book on our website and we'll plant A MILLION trees</strong></p>",
+              "body": "<p>We're working with our local partner <a href=\"#\">Trees4earth</a> who will plant 10 trees to offset the carbon cost of your trip.</p>",
+              "ctaLabel": "Read more",
+              "ctaHref": "https://www.pavilionshotels.com/covid19-updates/",
+              "ctaHrefTarget": "_blank"
+            },
+            "iconBackgroundColor": "#df7d4f",
+            "ctaBackgroundColor": "#df7d4f",
+            "ctaCorners": "rounded",
+            "corners": "rounded",
+            "backgroundColor": "#eaebef",
+            "icon": "people",
+            "image": "https://static.triptease.io/hackday-green-machine/planting-tree.jpg",
+            "font": "Poppins",
+            "useBranding": true
+          }
+        }
+      ],
+      "criteria": {
+        "urlExclusions": [
+          {
+            "value": "synxis",
+            "matcherType": "contains"
+          }
+        ]
+      }
+    }
+  ],
+  "notifications": {}
+}

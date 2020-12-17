@@ -1,0 +1,321 @@
+{
+  "campaigns": [
+    {
+      "id": "5ef3b315f4756100175d523a",
+      "type": "price-check",
+      "client": "STAYPINEAPPLE",
+      "variants": [
+        {
+          "variantId": "A",
+          "content": {
+            "type": "price-check",
+            "copy": {
+              "header": "Is it working???",
+              "directPrice": "Your Price",
+              "directBookingBenefits": [
+                "Book Direct & Save More",
+                "$10 Daily Eat + Drink Credit",
+                "Access To Exclusive Packages"
+              ],
+              "searchCriteriaAdult": "adult",
+              "searchCriteriaAdults": "adults",
+              "searchCriteriaChild": "child",
+              "searchCriteriaChildren": "children",
+              "verifiedBy": "Verified by",
+              "checkingPrices": "Checking prices on the web",
+              "noAvailability": "No rooms",
+              "viewAll": "View all",
+              "viewLess": "View less"
+            },
+            "iconBackgroundColor": "#00843d",
+            "ctaBackgroundColor": "#fedd00",
+            "ctaCorners": "square",
+            "corners": "square",
+            "backgroundColor": "#FFFFFF",
+            "icon": null,
+            "image": null,
+            "font": "Montserrat",
+            "useBranding": true
+          }
+        }
+      ],
+      "criteria": {}
+    },
+    {
+      "id": "5f2af97f8a52c80017762304",
+      "type": "in-page",
+      "client": "STAYPINEAPPLE",
+      "variants": [
+        {
+          "variantId": "A",
+          "placementSelector": "//*[@id=\"mainContent\"]/div[2]/div[3]",
+          "content": {
+            "type": "price-check",
+            "copy": {
+              "header": "Book Direct Savings",
+              "directPrice": "Your Price",
+              "directBookingBenefits": [
+                "Book Direct & Save More",
+                "$10 Daily Eat + Drink Credit",
+                "Access To Exclusive Packages"
+              ],
+              "searchCriteriaAdult": "adult",
+              "searchCriteriaAdults": "adults",
+              "searchCriteriaChild": "child",
+              "searchCriteriaChildren": "children",
+              "verifiedBy": "Verified by",
+              "checkingPrices": "Checking prices on the web",
+              "noAvailability": "No rooms",
+              "viewAll": "View all",
+              "viewLess": "View less"
+            },
+            "iconBackgroundColor": "#00843d",
+            "ctaBackgroundColor": "#fedd00",
+            "ctaCorners": "square",
+            "corners": "square",
+            "backgroundColor": "#FFFFFF",
+            "icon": null,
+            "image": null,
+            "font": "Montserrat",
+            "useBranding": true
+          }
+        }
+      ],
+      "criteria": {}
+    },
+    {
+      "id": "5f2b409f8a52c800177623b2",
+      "display": {
+        "after": 3000
+      },
+      "type": "nudge",
+      "client": "STAYPINEAPPLE",
+      "variants": [
+        {
+          "variantId": "A",
+          "content": {
+            "type": "text",
+            "copy": {
+              "header": "<p><strong>Free Refreshments With Every Stay!</strong></p>",
+              "body": "<p><span style=\"color: rgb(54,54,53);background-color: rgb(255,255,255);font-size: 13px;font-family: Verdana, Arial, sans-serif;\">All reservations enjoy a $10 daily Eat + Drink credit from the Pineapple Quick Bites &amp; Bevvies cooler. Grab a snack on your way out the door or pick up a cold beverage on the way back to your room.</span></p>",
+              "ctaLabel": "YUM!",
+              "ctaHref": null,
+              "ctaHrefTarget": "_top"
+            },
+            "iconBackgroundColor": "#00843d",
+            "ctaBackgroundColor": "#00843d",
+            "ctaCorners": "square",
+            "corners": "square",
+            "backgroundColor": "#FFFFFF",
+            "icon": null,
+            "image": {
+              "src": "https://static.triptease.io/message-porter/clients/STAYPINEAPPLE/d50dfbb9efc5df6338b265ad3ef48990.jpeg",
+              "fileName": "Hotel Rose-Bottle-Kitchen-Beer-Chips-300x200-f29fae0.jpg",
+              "position": "left"
+            },
+            "font": "Montserrat",
+            "useBranding": false
+          }
+        }
+      ],
+      "criteria": {
+        "urlInclusions": [
+          {
+            "value": "/eat-drink",
+            "matcherType": "contains"
+          },
+          {
+            "value": "/amenities",
+            "matcherType": "contains"
+          },
+          {
+            "value": "https://be.synxis.com/checkout",
+            "matcherType": "contains"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f3efeb3eda3f8001726f3e6",
+      "display": {
+        "after": 3000
+      },
+      "type": "nudge",
+      "client": "STAYPINEAPPLE",
+      "variants": [
+        {
+          "variantId": "A",
+          "content": {
+            "type": "full-image",
+            "copy": {
+              "image": {
+                "src": "https://static.triptease.io/message-porter/clients/STAYPINEAPPLE/72b4fb54f7782e323348f37bb3ccf2e9.jpeg",
+                "fileName": "TA Winners 2020-SPNY-80.jpg",
+                "position": "full"
+              },
+              "ctaHref": null,
+              "ctaHrefTarget": "_top"
+            }
+          }
+        }
+      ],
+      "criteria": {
+        "urlInclusions": [
+          {
+            "value": "https://www.staypineapple.com/midtown-new-york",
+            "matcherType": "equals"
+          },
+          {
+            "value": "https://www.staypineapple.com/midtown-new-york/rooms",
+            "matcherType": "equals"
+          },
+          {
+            "value": "https://www.staypineapple.com/midtown-new-york/location",
+            "matcherType": "equals"
+          },
+          {
+            "value": "https://www.staypineapple.com/midtown-new-york/gallery",
+            "matcherType": "equals"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f6267dafdb43d00176a2794",
+      "display": {
+        "after": 0
+      },
+      "type": "nudge",
+      "client": "STAYPINEAPPLE",
+      "variants": [
+        {
+          "variantId": "A",
+          "content": {
+            "type": "full-image",
+            "copy": {
+              "image": {
+                "src": "https://static.triptease.io/message-porter/clients/STAYPINEAPPLE/716e0e261a1c9201845418e267151ad9.jpeg",
+                "fileName": "nudge300x300-1.jpg",
+                "position": "full"
+              },
+              "ctaHref": "https://www.staypineapple.com/join-the-core",
+              "ctaHrefTarget": "_blank"
+            }
+          }
+        },
+        {
+          "variantId": "B",
+          "content": {
+            "type": "full-image",
+            "copy": {
+              "image": {
+                "src": "https://static.triptease.io/message-porter/clients/STAYPINEAPPLE/eb5a75c4687b92ac2458702bf89356b1.jpeg",
+                "fileName": "nudge300x300-2.jpg",
+                "position": "full"
+              },
+              "ctaHref": "https://www.staypineapple.com/join-the-core",
+              "ctaHrefTarget": "_blank"
+            }
+          }
+        }
+      ],
+      "criteria": {
+        "urlInclusions": [
+          {
+            "value": "/special-offers",
+            "matcherType": "contains"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f6d28ca4e2b6500174a2585",
+      "display": {
+        "after": 0
+      },
+      "type": "nudge",
+      "client": "STAYPINEAPPLE",
+      "variants": [
+        {
+          "variantId": "A",
+          "content": {
+            "type": "text",
+            "copy": {
+              "header": "<p><strong>Work From Staypineapple</strong></p>",
+              "body": "<p><span style=\"color: rgb(54,54,53);background-color: rgb(255,255,255);font-size: 13px;font-family: Verdana, Arial, sans-serif;\">All you need to work remote including high-speed Wi-Fi, streaming capable TVs, and unlimited coffee, tea, and bottled water.  </span></p>\n<br />\n<p><span style=\"color: rgb(54,54,53);background-color: rgb(255,255,255);font-size: 13px;font-family: Verdana, Arial, sans-serif;\">Check-in as early as 8 AM or opt for late check-out at 5 PM.</span></p>",
+              "ctaLabel": "MORE DETAILS",
+              "ctaHref": "https://www.staypineapple.com/midtown-new-york/special-offers/work-from-staypineapple",
+              "ctaHrefTarget": "_top"
+            },
+            "iconBackgroundColor": "#00843d",
+            "ctaBackgroundColor": "#fedd00",
+            "ctaCorners": "square",
+            "corners": "square",
+            "backgroundColor": "#FFFFFF",
+            "icon": "coffee",
+            "image": null,
+            "font": "Montserrat",
+            "useBranding": true
+          }
+        }
+      ],
+      "criteria": {
+        "urlInclusions": [
+          {
+            "value": "https://www.staypineapple.com/midtown-new-york/groups",
+            "matcherType": "equals"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f8a34935bd0910017a86303",
+      "display": {
+        "after": 0
+      },
+      "type": "nudge",
+      "client": "STAYPINEAPPLE",
+      "variants": [
+        {
+          "variantId": "A",
+          "content": {
+            "type": "text",
+            "copy": {
+              "header": "<p><strong>WE CAN CONTROL THIS TEXT</strong></p>",
+              "body": "<p><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-family: Arial;\">And the picture too.</span></p>",
+              "ctaLabel": "AND THE PICTURE TOO",
+              "ctaHref": "https://www.staypineapple.com/health-safety-and-updated-travel-policies/sanitation-protocols",
+              "ctaHrefTarget": "_blank"
+            },
+            "iconBackgroundColor": "#00843d",
+            "ctaBackgroundColor": "#fedd00",
+            "ctaCorners": "square",
+            "corners": "square",
+            "backgroundColor": "#FFFFFF",
+            "icon": null,
+            "image": {
+              "src": "https://upload.wikimedia.org/wikipedia/en/b/be/Disloyal_man_with_his_girlfriend_looking_at_another_girl.jpg",
+              "fileName": "Stayclean Door Sticker3.jpg",
+              "position": "left"
+            },
+            "font": "Montserrat",
+            "useBranding": true
+          }
+        }
+      ],
+      "criteria": {
+        "urlInclusions": [
+          {
+            "value": "be.synxis.com/",
+            "matcherType": "contains"
+          }
+        ]
+      }
+    }
+  ],
+  "notifications": {
+    "_id": "5f2aea848a52c800177622d5",
+    "client": "STAYPINEAPPLE",
+    "apiKey": "32899e899dc042dda0fd938b2be21f91"
+  }
+}
