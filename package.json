@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "fastify": "^3.9.2",
+    "fastify": "^3.29.4",
     "nodemon": "^2.0.6",
     "pino-pretty": "^4.3.0"
   },
